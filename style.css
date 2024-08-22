@@ -1,0 +1,131 @@
+body {
+    background-color: black;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    font-size: 14px;
+}
+
+.container {
+    transform: translateY(40px);
+    color:hsl(0, 0%, 100%) ;
+    background-color: hsl(0, 0%, 8%);
+    width: 400px;
+    display: block;
+    margin: 0px auto;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.container img {
+    width: 100px;
+    height: 100PX;
+    border-radius: 50%;
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.container h1 {
+    MARGIN-TOP: 15px;
+    padding: 0 0 5px;
+    text-align: center;
+}
+
+.container span {
+    text-align: center;
+    display: block;
+    color: hsl(75, 94%, 57%);
+    font-weight: 600;
+    padding-bottom: 25px;
+}
+
+.container>p {
+    color: hsl(0, 0%, 100%);
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+.container ul {
+    margin: 10px 0;
+    text-align: center;
+}
+
+.container ul li:hover {
+    background-color: hsl(75, 94%, 57%);
+    cursor: pointer;
+}
+
+.container ul li {
+    margin: 15px 0;
+    padding: 10px;
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 6px;
+}
+
+.container ul li:hover a {
+    color: black;
+}
+
+.container ul li a {
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+@media (max-width:768px) {
+    .container {
+        width: 280px;
+        margin-right: auto;
+        margin-left: auto;
+        transform: translateY(50%);
+        margin-top: -50%;
+    }
+
+    .container span {
+        font-size: 18px;
+    }
+
+    .container p {
+        font-size: 18px;
+    }
+
+    .container a {
+        font-size: 13px;
+    }
+}
+
+.container attribution {
+    font-size: 13px;
+    text-align: center;
+}
+
+.container bottom .link {
+    color: white;
+    font-style: normal;
+    font-size: 16px;
+}
+
+.container bottom .link-2 {
+    color: white;
+    font-style: normal;
+    font-size: 16px;
+}
